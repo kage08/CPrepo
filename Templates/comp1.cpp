@@ -12,19 +12,24 @@
 #include <map>
 #include <list>
 #include <sstream>
+#include <set>
 
 using namespace std;
 
-#define FOR(i,a,b) for(int (i)=(a); i<(b); i++)
-#define FORD(i,a,b) for(int (i)=(a); i<(b); i--)
+#define FOR(i,a,b,s) for(int (i)=(a); i<(b); i+=(s))
+#define FORD(i,a,b,s) for(int (i)=(a); i<(b); i-(s))
 #define LL long long
 #define DEBUG(x) cout << '>' << #x << ':' << x << endl;
 
 typedef pair<int, int> PII;
 typedef vector<int> VI;
 typedef set<int> SI;
-typedef set<st> SS;
+typedef set<string> SS;
 typedef vector<string> VS;
-typedef vector<pii> VPII;
+typedef vector<PII> VPII;
 typedef map<int,int> MII;
-typedef map<st,int> MSI;
+typedef map<string,int> MSI;
+
+int main(){
+
+}
